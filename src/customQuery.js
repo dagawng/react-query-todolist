@@ -44,6 +44,11 @@ export const useTaskQuery = () => {
     mutationFn: ({ id, title }) => api.put(`tasks/${id}`, { title }),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["tasks"] });
+      toaster.create({
+        title: "Hooray 🥳🥳🥳!!!",
+        description: "You have successfully updated the task.",
+        type: "success",
+      });
     },
   });
 
