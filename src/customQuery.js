@@ -45,7 +45,7 @@ export const useTaskQuery = () => {
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["tasks"] });
       toaster.create({
-        title: "Hooray 🥳🥳🥳!!!",
+        title: "Updated Successfully",
         description: "You have successfully updated the task.",
         type: "success",
       });

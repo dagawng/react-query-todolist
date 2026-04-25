@@ -1,4 +1,19 @@
 {
-  "tasks": [],
+  "tasks": [
+    {
+      "title": "buy food",
+      "id": "cWGMIb2hUGQ"
+    },
+    {
+      "title": "eat food",
+      "completed": false,
+      "id": "nQn3BZBcEKU"
+    },
+    {
+      "title": "cook food",
+      "completed": false,
+      "id": "cUgi44ND_iQ"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
